@@ -29,6 +29,7 @@ function makeInt(a) {
   return a
 }
 
-function makeInt(a, 10) {
-  
+function makeInt(a) {
+  parseInt(a, 10)
+  return a
 }
