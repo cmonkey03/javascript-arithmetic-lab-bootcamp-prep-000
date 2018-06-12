@@ -29,4 +29,8 @@ function makeInt(a) {
   return a
 }
 
+function preserveInt(a) {
+  parseFloat(a)
+  return a
+}
 
